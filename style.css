@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(30, 30, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 650px;
+    min-width: 650px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div__main{
+    background: rgb(40, 40, 50);
+    height: 650px;
+    width: 650px;
+    border-radius: 5%;
+    box-shadow: 0 0 20px;
+}
+
+.div__main--container{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+.div__staricon{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 40%;
+    height: 40%;
+}
+
+h1{
+    padding-top: 50px;
+    color: white;
+}
+
+h2{
+    padding-top: 25px;
+    color: grey;
+}
+
+.div__buttons{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+button, a{
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+}
+
+.button__rating{
+    height: 100%;
+    width: 80px;
+    font-size: 20px;
+    background: rgb(50, 50, 60);
+    color: grey;
+}
+
+.hover--pos:hover{
+    background: rgb(140, 140, 140);
+    color: white;
+}
+
+.button__rating--active{
+    background: #ffa500;
+    color: white;
+}
+
+.button__submit{
+    height: calc(100% - 5px);
+    width: 100%;
+    background: #ffa500;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__submit:hover{
+    color: #ffa500;
+    background: white;
+}
+
+.off{
+    display: none;
+}
